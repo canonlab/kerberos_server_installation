@@ -11,8 +11,8 @@
 #   e.g. "Specify one or more upstream ntp servers as an array."
 #
 class kerberos_server_installation (
-  $package_name = $::kerberos_server_installation::params::package_name,
-  $service_name = $::kerberos_server_installation::params::service_name,
+  #$package_name = $::kerberos_server_installation::params::package_name,
+  #$service_name = $::kerberos_server_installation::params::service_name,
 ) inherits ::kerberos_server_installation::params {
 
   # validate parameters here

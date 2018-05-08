@@ -5,10 +5,10 @@
 #
 class kerberos_server_installation::service {
 
-  service { $::kerberos_server_installation::service_name:
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
-  }
+  #service { $::kerberos_server_installation::service_name:
+  #  ensure     => running,
+  #  enable     => true,
+  #  hasstatus  => true,
+  #  hasrestart => true,
+  #}
 }
