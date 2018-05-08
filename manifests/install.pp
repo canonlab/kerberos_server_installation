@@ -4,11 +4,11 @@
 #
 class kerberos_server_installation::install {
 
-  package { "krb5-server":
+  package { 'krb5-server':
     ensure => present,
   }
 
-  package { "krb5-libs":
+  package { 'krb5-libs':
     ensure => present,
   }
 
