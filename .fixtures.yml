@@ -1,0 +1,5 @@
+fixtures:
+  repositories:
+    stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+  symlinks:
+    kerberos_server_installation: "#{source_dir}"
